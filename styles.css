@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=);
+* {
+    margin: 0;
+    padding: 0;
+    color: #d9d9d9;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+footer {
+    display: flex;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+    padding: 20px 20px 20px 20px;
+    height: 55%;
+    
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13.5px;
+    margin-top: 2px;
+    padding: 5px;
+}
+
+.parteUno{
+margin: 10px 30px 30px 30px;
+padding: 30px 30px 30px 60px;
+margin-left: 60px;
+width: auto;
+}
+.parrafo{
+    display: flex;
+    margin-right: 160px;
+    justify-content:left ;
+}
+
+.parteDos{
+justify-content: center;
+align-content: center;
+margin-right: 280px;
+margin-top: 70px;
+margin-bottom: 110px;
+align-items: center;
+
+}
+
+.parteTres{
+margin-right: 100px;
+justify-content: center;
+align-content: center;
+margin-bottom: 50px;
+align-items: center;
+}
+.animacion :hover{
+    transition: 0.3s;
+}
+.boton{
+    height: 30px;
+    width: 100px;
+    color: black;
+}
+
+
+
